@@ -1,0 +1,154 @@
+(footprint "HDI_R_0201_H026"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "99b387dd-b441-4c5c-a372-4047663b70a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HDI_R_0201_H026"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebb3ee46-e4b3-41e9-97d3-7a1a158c8247")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1fd5c66-5d8a-4cdd-a45f-d4d76e8e8cee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "High Density Variant (IPC Class C) Version of 0201"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "883b298c-3850-4454-9134-e7fc88f657b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.2625 -0.125)
+		(end 0.2625 0.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "67032cae-a61f-4776-abda-df26abd91903")
+	)
+	(fp_rect
+		(start -0.525 -0.265)
+		(end 0.525 0.265)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "516644bd-5ffc-4b8a-8dd5-eac109a6b73c")
+	)
+	(fp_line
+		(start -0.05 0)
+		(end 0.05 0)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9264d2a5-dda7-4ef4-9530-9ef895f6ecd4")
+	)
+	(fp_line
+		(start 0 0.05)
+		(end 0 -0.05)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49797306-cc33-494e-8883-61caca3799e8")
+	)
+	(fp_rect
+		(start -0.315 -0.165)
+		(end 0.315 0.165)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f20eaef6-1d7c-49a6-9ff7-8f74e5b55fd4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc6ada1b-d1af-48da-97d2-5d71803f2677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.2625 0)
+		(size 0.325 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "fd15fb17-c324-445a-9390-bc8e6c1d9912")
+	)
+	(pad "2" smd roundrect
+		(at 0.2625 0)
+		(size 0.325 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "e6ec8b95-9329-49b4-97c8-f64e8fc1f2dc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
